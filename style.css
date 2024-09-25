@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+Header{
+    height: 150px;
+    background-color: #61B4EE;
+    display: flex;
+    align-items: center;
+}
+#logo-comic{
+    display: flex;
+    align-items: center;
+    margin-left: 59px;
+    cursor: pointer;
+}
+#nav-bar{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+    margin-left: 35vw;
+}
+#nav-bar a{
+    display: block;
+    font-size: 36px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+#burger-menu{
+    width: 40px;
+    max-height: 35px;
+    cursor: pointer;
+}
+main{
+    display: flex;
+}
+#main-image{
+    margin: 50px 119px;
+}
+#main-image img{
+    height: 720px;
+}
+#main-para{
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+#main-para p {
+    font-size: 24px;
+    width: 1000px;
+}
+#char-name{
+    width: 249px;
+    text-transform: uppercase;
+    font-family: "Irish Grover", system-ui;;
+    font-size: 64px;
+}
+footer{
+    height: 100px;
+    background-color: #F3FE3E;
+    display: flex;
+    align-items: center;
+}
+footer p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: auto;
+}
+#social-btn{
+    margin: auto;
+}
+.fa-brands.fa-youtube{
+    font-size: 35px;
+    cursor: pointer;
+}
+.fa-brands.fa-instagram{
+    font-size: 35px;
+    margin: 0 30px;
+    cursor: pointer;
+}
+.fa-brands.fa-x-twitter{
+    font-size: 35px;
+    cursor: pointer;
+}
